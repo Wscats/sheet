@@ -1,0 +1,26 @@
+.area {
+    position: absolute;
+    text-align: left;
+    border: 2px solid #4b89ff;
+    line-height: 0;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+textarea {
+    display: none;
+    width: 291.8px;
+    height: 47.8px;
+
+    box-sizing: content-box;
+    padding: 0 3px;
+    outline: none;
+    resize: none;
+    text-align: start;
+    overflow-y: hidden;
+    font: 400 13px Arial, 'Lato', 'Source Sans Pro', Roboto, Helvetica, sans-serif;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 22px;
+    margin: 0;
+}
