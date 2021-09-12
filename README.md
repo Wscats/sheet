@@ -15,7 +15,7 @@
 
 # API 接口
 
-提供完整的表格操作接口，例如：可修改单元格数据，样式，行列高度
+提供完整的表格操作接口，例如：可修改单元格数据，样式，行列高度:
 
 - scrollRows
 - scrollCols
@@ -39,6 +39,16 @@
 - scrollRows
 - startCol
 - startRow
+
+单元格接口:
+
+```js
+cell: {
+    text: '',
+    style: { border, fontSize, fontName, bold, italic, color, bgcolor, align, valign, underline, strike, textwrap, padding },
+    type: text | button | link | checkbox | radio | list | progress | image | imageButton | date
+}
+```
 
 # 效果
 
