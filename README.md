@@ -61,7 +61,7 @@ cell: {
 <img width="220" align="left" src="./screenshots/2.png" />
 <img width="220" align="left" src="./screenshots/3.png" />
 <img width="220" align="left" src="./screenshots/4.png" />
-<img width="220" align="left" src="./screenshots/5.png" />
+<img width="220" src="./screenshots/5.png" />
 
 # 方案
 
