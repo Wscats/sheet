@@ -2,6 +2,10 @@
 
 基于 Canvas 实现的高性能 Excel 表格引擎组件 [OpenHarmonySheet](https://github.com/Wscats/sheet)。
 
+由于大部分前端项目渲染层是使用框架根据排版模型树结构逐层渲染的，整棵渲染树也是与排版模型树一一对应。因此，整个渲染的节点也非常多。项目较大时，性能会受到较大的影响。
+
+为了提升渲染性能，提供更优质的编辑体验从 DOM 更换成 Canvas 渲染，方便开发者构建重前端大型在线文档项目，如：腾讯文档，金山文档和谷歌文档等。
+
 <img src="./screenshots/1.gif" />
 
 在项目中引入 `<Sheet></Sheet>` 组件即可，使用方法如下：
@@ -55,9 +59,21 @@ cell: {
 `长按`单元格弹出 Dialog 演示常用接口的使用方式:
 
 <img width="220" align="left" src="./screenshots/2.png" />
-<img width="220" src="./screenshots/3.png" />
-<img width="220" src="./screenshots/4.png" />
+<img width="220" align="left" src="./screenshots/3.png" />
+<img width="220" align="left" src="./screenshots/4.png" />
 <img width="220" src="./screenshots/5.png" />
+
+# 方案
+
+通过分类收集视图元素，再进行逐类别渲染的方式，减少 Canvas 绘图引擎切换状态机的次数，降低性能损耗，优化渲染耗时。
+
+|顶层|||
+|-|-|-|
+|↑|DOM|容器插件等非编辑渲染|
+|↑|Canvas|选区渲染|
+|↑|Canvas|内容高亮底色等|
+|底层|||
+
 
 # 开发
 
