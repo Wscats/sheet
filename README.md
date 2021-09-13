@@ -63,6 +63,16 @@ cell: {
 <img width="220" src="./screenshots/4.png" />
 <img width="220" src="./screenshots/5.png" />
 
+# 方案
+
+|顶层|||
+|-|-|-|
+|↑|DOM|容器插件等非编辑渲染|
+|↑|Canvas|选区渲染|
+|↑|Canvas|内容高亮底色等|
+|底层||-|
+
+
 # 开发
 
 本项目基于 OpenHarmony 下的 JavaScript UI 框架，运行环境**请参考 [OpenHarmony 项目配置方法](https://gitee.com/isrc_ohos/ultimate-harmony-reference/blob/master/OpenHarmony%20JS%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.md) 进行项目配置和运行。**
