@@ -60,9 +60,8 @@ export default {
         isShowArea: false,
         areaTop: 0,
         areaLeft: 0,
-        row: -1,
-        col: -1,
         content: '',
+        isFocus: true,
     },
     touchstart(evt) {
         const cell = this.viewport.cell(evt.touches[0].localX, evt.touches[0].localY);
@@ -100,7 +99,6 @@ export default {
         this.table.cell((ri, ci) => {
             return this.sheet[ri][ci];
         }).render();
-        this.content = '';
     },
     touchend(evt) {
         const range = this.viewport.range(evt.changedTouches[0].localX, evt.changedTouches[0].localY);
