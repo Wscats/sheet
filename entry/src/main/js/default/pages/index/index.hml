@@ -1,7 +1,7 @@
 <div class="container">
         <canvas ref="canvas" style="width: 100%; height: 100%;" ontouchstart="touchstart" onlongpress="longpress"
                 ontouchend="touchend" ontouchend="moveUp"></canvas>
-        <div class="area" id="area" ref="area">
-                <textarea ref="textarea" onchange="change"></textarea>
+        <div show="{{isShowArea}}" style="width: 100px; height: 25px; top: {{areaTop}}px; left: {{areaLeft}}px" class="area" id="area" ref="area">
+                <textarea value="{{content}}" ref="textarea" onchange="change"></textarea>
         </div>
 </div>
