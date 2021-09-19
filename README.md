@@ -1,10 +1,10 @@
 # OpenHarmonySheet
 
-基于 `Canvas` 实现的高性能 `Excel` 表格引擎组件 [OpenHarmonySheet](https://gi`thub.com/Wscats/sheet)。
+基于 `Canvas` 实现的高性能 `Excel` 表格引擎组件 [OpenHarmonySheet](https://github.com/Wscats/sheet)。
 
 由于大部分前端项目渲染层是使用框架根据排版模型树结构逐层渲染的，整棵渲染树也是与排版模型树一一对应。因此，整个渲染的节点也非常多。项目较大时，性能会受到较大的影响。
 
-为了提升渲染性能，提供更优质的编辑体验从 `DOM` 更换成 `Canvas` 渲染，方便开发者构建重前端大型在线文档项目，在国内外实现类似引擎的公司仅仅只有几家，如：腾讯文档，金山文档，飞书和谷歌文档等。
+为了提升渲染性能，提供更优质的编辑体验从 `DOM` 更换成 `Canvas` 渲染，方便开发者构建重前端大型在线文档项目，在国内外实现类似引擎的公司仅仅只有几家，如：腾讯文档，金山文档和谷歌文档等。
 
 <img src="./screenshots/1.gif" />
 
@@ -145,7 +145,7 @@ cell: {
 
 本项目基于 `OpenHarmony` 下的 `JavaScript UI` 框架，运行环境**请参考 [OpenHarmony 项目配置方法](https://gitee.com/isrc_ohos/ultimate-harmony-reference/blob/master/OpenHarmony%20JS%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.md) 进行项目配置和运行。**
 
-如果你不熟悉 OpenHarmony 的 JS 开发，**请参考该[官方文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references/js-apis-overview-0000001056361791)。**
+如果你不熟悉 `OpenHarmony` 的 `JavaScript` 开发，**请参考该[官方文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references/js-apis-overview-0000001056361791)。**
 
 # 运行
 
