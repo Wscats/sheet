@@ -64,15 +64,15 @@ export default {
     longpress(evt) {
         this.$emit('clickCellLongpress');
     },
-    change(e) {
-        this.$emit('change', {
-            evt,
-            el: this.el,
-            textarea: this.textarea,
-            viewport: this.viewport,
-            table: this.table,
-        });
-        this.content = e.value;
+    change(evt) {
+       this.$emit('change', {
+           evt,
+           el: this.el,
+           textarea: this.textarea,
+           viewport: this.viewport,
+           table: this.table,
+       });
+        this.content = evt.value;
         this.sheet[this.row][this.col] = this.content;
         this.setTableCell();
     },

@@ -53,13 +53,15 @@ export default {
     clickCellEnd(e) {
         const evt = e.detail.evt;
     },
+    change(e) {
+        const evt = e.detail.evt;
+    },
     sheetShow(sheet) {
         this.el = sheet.detail.el;
         this.textarea = sheet.detail.textarea;
         this.viewport = sheet.detail.viewport;
         this.table = sheet.detail.table;
     },
-
     setTableCell() {
         this.table.cell((ri, ci) => {
             return this.sheet?.[ri]?.[ci] || '';
