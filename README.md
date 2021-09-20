@@ -283,7 +283,7 @@ this.table.cell((ri, ci) => this.sheet?.[ri]?.[ci] || "").render();
 - [X Spreadsheet@MyLiang](https://github.com/myliang/x-spreadsheet)
 - [Tencent Doc@AlloyTeam](https://docs.qq.com)
 
-最后写点总结吧，不喜请轻喷，想起外网知乎有过类似的讨论，[中国要用多久才能研发出类似 Excel，且功能涵盖 Excel 95% 功能的替代软件？](https://www.zhihu.com/question/274242420)，这条路很崎岖很艰难，引用最高赞一些大 V 的回答吧：
+<!-- 最后写点总结吧，不喜请轻喷，想起外网知乎有过类似的讨论，[中国要用多久才能研发出类似 Excel，且功能涵盖 Excel 95% 功能的替代软件？](https://www.zhihu.com/question/274242420)，这条路很崎岖很艰难，引用最高赞一些大 V 的回答吧：
 
 - `微软轮子哥`：做不出来的，那么多东西，要把需求文档写好都得好几年。
 - 微软的 Belleve：各位程序员可以试试先实现下 recalc（根据公式更新单元格数值），就知道难度了，文档项目作为国内最复杂的 C++ 项目绝非浪得虚名。
@@ -302,4 +302,4 @@ this.table.cell((ri, ci) => this.sheet?.[ri]?.[ci] || "").render();
 
 这一切我希望鸿蒙能给到，也衷心希望你能成功！
 
-> 长风破浪会有时，直挂云帆济沧海
+> 长风破浪会有时，直挂云帆济沧海 -->
