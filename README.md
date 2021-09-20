@@ -77,6 +77,12 @@ sheetShow(sheet) {
 
 用于帮助你操作单元格上层的高亮选框。
 
+- `this.textarea.xxx`
+
+`this.textarea` 是对鸿蒙的原生 `<textarea>` 组件的封装接口，用于帮助你接受用户在界面中的输入，然后配合 `this.table.xx` 将数据层的数据渲染到表格渲染层，这里的输入需要真机调试，因为真机有自带输入法，实测 `Previewer` 无效。
+
+<img width="220" src="./screenshots/9.gif" />
+
 ## 初始化表格渲染层
 
 ```ts
